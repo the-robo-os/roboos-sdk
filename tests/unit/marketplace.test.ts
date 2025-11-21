@@ -11,7 +11,7 @@ describe('TaskMarketplace', () => {
 
   beforeEach(() => {
     marketplace = new TaskMarketplace({
-      endpoint: 'https://marketplace-testnet.roboos.io',
+      endpoint: 'https://marketplace-testnet.theroboos.com',
     });
     marketplace.setRobotId('robot-001');
   });

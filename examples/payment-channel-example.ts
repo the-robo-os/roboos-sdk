@@ -10,7 +10,7 @@ async function main() {
   // Initialize SDK
   const sdk = new RobotSDK({
     network: 'testnet',
-    fprEndpoint: 'https://fpr-testnet.roboos.io',
+    fprEndpoint: 'https://fpr-testnet.theroboos.com',
   });
 
   // Create wallet for robot 1

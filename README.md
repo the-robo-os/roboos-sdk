@@ -30,8 +30,8 @@ import { RobotSDK, ForkliftRobot } from '@roboos/robot-sdk';
 // Initialize SDK
 const sdk = new RobotSDK({
   network: 'mainnet-beta',
-  fprEndpoint: 'https://fpr.roboos.io',
-  marketplaceEndpoint: 'https://marketplace.roboos.io',
+  fprEndpoint: 'https://fpr.theroboos.com',
+  marketplaceEndpoint: 'https://marketplace.theroboos.com',
 });
 
 // Create robot wallet

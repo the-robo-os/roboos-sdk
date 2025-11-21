@@ -10,7 +10,7 @@ async function main() {
   // Initialize SDK
   const sdk = new RobotSDK({
     network: 'testnet',
-    marketplaceEndpoint: 'https://marketplace-testnet.roboos.io',
+    marketplaceEndpoint: 'https://marketplace-testnet.theroboos.com',
   });
 
   // Create wallet

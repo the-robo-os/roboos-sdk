@@ -60,9 +60,9 @@ export class ConfigManager {
 
   private getDefaultFPREndpoint(network: Network): string {
     const endpoints: Record<Network, string> = {
-      'mainnet-beta': 'https://fpr.roboos.io',
-      'testnet': 'https://fpr-testnet.roboos.io',
-      'devnet': 'https://fpr-devnet.roboos.io',
+      'mainnet-beta': 'https://fpr.theroboos.com',
+      'testnet': 'https://fpr-testnet.theroboos.com',
+      'devnet': 'https://fpr-devnet.theroboos.com',
       'localnet': 'http://localhost:3001',
     };
     return endpoints[network];
@@ -70,9 +70,9 @@ export class ConfigManager {
 
   private getDefaultMarketplaceEndpoint(network: Network): string {
     const endpoints: Record<Network, string> = {
-      'mainnet-beta': 'https://marketplace.roboos.io',
-      'testnet': 'https://marketplace-testnet.roboos.io',
-      'devnet': 'https://marketplace-devnet.roboos.io',
+      'mainnet-beta': 'https://marketplace.theroboos.com',
+      'testnet': 'https://marketplace-testnet.theroboos.com',
+      'devnet': 'https://marketplace-devnet.theroboos.com',
       'localnet': 'http://localhost:3002',
     };
     return endpoints[network];
@@ -80,9 +80,9 @@ export class ConfigManager {
 
   private getDefaultReputationEndpoint(network: Network): string {
     const endpoints: Record<Network, string> = {
-      'mainnet-beta': 'https://reputation.roboos.io',
-      'testnet': 'https://reputation-testnet.roboos.io',
-      'devnet': 'https://reputation-devnet.roboos.io',
+      'mainnet-beta': 'https://reputation.theroboos.com',
+      'testnet': 'https://reputation-testnet.theroboos.com',
+      'devnet': 'https://reputation-devnet.theroboos.com',
       'localnet': 'http://localhost:3003',
     };
     return endpoints[network];
@@ -90,9 +90,9 @@ export class ConfigManager {
 
   private getDefaultVerificationEndpoint(network: Network): string {
     const endpoints: Record<Network, string> = {
-      'mainnet-beta': 'https://verification.roboos.io',
-      'testnet': 'https://verification-testnet.roboos.io',
-      'devnet': 'https://verification-devnet.roboos.io',
+      'mainnet-beta': 'https://verification.theroboos.com',
+      'testnet': 'https://verification-testnet.theroboos.com',
+      'devnet': 'https://verification-devnet.theroboos.com',
       'localnet': 'http://localhost:3004',
     };
     return endpoints[network];

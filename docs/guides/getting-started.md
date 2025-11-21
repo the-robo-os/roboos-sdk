@@ -19,8 +19,8 @@ import { RobotSDK } from '@roboos/robot-sdk';
 
 const sdk = new RobotSDK({
   network: 'testnet', // or 'mainnet-beta', 'devnet', 'localnet'
-  fprEndpoint: 'https://fpr-testnet.roboos.io',
-  marketplaceEndpoint: 'https://marketplace-testnet.roboos.io',
+  fprEndpoint: 'https://fpr-testnet.theroboos.com',
+  marketplaceEndpoint: 'https://marketplace-testnet.theroboos.com',
   logLevel: 'info', // 'debug', 'info', 'warn', 'error'
 });
 ```

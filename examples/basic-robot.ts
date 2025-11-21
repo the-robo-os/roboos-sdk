@@ -10,8 +10,8 @@ async function main() {
   // Initialize SDK
   const sdk = new RobotSDK({
     network: 'testnet',
-    fprEndpoint: 'https://fpr-testnet.roboos.io',
-    marketplaceEndpoint: 'https://marketplace-testnet.roboos.io',
+    fprEndpoint: 'https://fpr-testnet.theroboos.com',
+    marketplaceEndpoint: 'https://marketplace-testnet.theroboos.com',
     logLevel: 'info',
   });
 
